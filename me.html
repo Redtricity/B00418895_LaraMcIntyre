@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <!-- Link to css style sheet -->
+ <link rel="stylesheet" href="CSS/myCSS.css">
+ <!-- Include the JavaScript file -->
+ <script src="JS/myJS.js"></script>
+ <!-- Link to bootstrap 5 CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <!-- Link to bootstrap 5 JS -->
+</head>
+
+<style>
+  /* Custom styles */
+  body {
+    background-color: black;
+    font-family: monospace, monaco, 'Courier New', Courier, monospace;
+  }
+  .navbar {
+    background-color: black !important; /* Override any conflicting styles */
+  }
+</style>
+
+<body>
+<!-- nav bar with logo and links -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <!-- logo on left -->
+    <a class="navbar-brand" href="index.html">
+      <img src="Bootstrap-WebsiteAssets\original-cc96db696e1d8aa065436c4343c91955.png" alt="Logo" style="width:40px;" class="rounded-pill">
+    </a>
+    <!--rest on right-->
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Elements.html">Elements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="me.html">About Me</a>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Another link</a></li>
+            <li><a class="dropdown-item" href="#">A third link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Navbar toggle button for smaller screens -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+
+  
+
+<div class="container mt-3">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="Me before Reilly's.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Lara McIntyre</h4>
+      <p class="card-text">Third year games development student.l</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+  <br>
+  
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title of Your Project</title>
+      <script type="module" crossorigin src="/assets\Element05\index-25d6730d.js"></script>
+      <link rel="stylesheet" href="/assets\Element05\index-d6d7b775.css">
+   
+      <title>Bootstrap Example</title>
+      <!-- Link to css style sheet -->
+     <link rel="stylesheet" href="CSS/myCSS.css">
+     <!-- Include the JavaScript file -->
+     <script src="JS/myJS.js"></script>
+     <!-- Link to bootstrap 5 CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     <!-- Link to bootstrap 5 JS -->
+    </head>
+    <style>
+      /* Custom styles */
+      body {
+        background-color: black;
+        font-family: monospace, monaco, 'Courier New', Courier, monospace;
+      }
+      .navbar {
+        background-color: black !important; /* Override any conflicting styles */
+      }
+    </style>
+    
+    <body>
+    <header>
+    
+     <!-- nav bar with logo and links -->
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <!-- logo on left -->
+        <a class="navbar-brand" href="index.html">
+          <img src="Bootstrap-WebsiteAssets\original-cc96db696e1d8aa065436c4343c91955.png" alt="Logo" style="width:40px;" class="rounded-pill">
+        </a>
+        <!--rest on right-->
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Elements.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="me.html">Me</a>
+            </li>  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Elements</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Element01.html">Element01</a></li>
+                <li><a class="dropdown-item" href="Element02.html">Element02</a></li>
+                <li><a class="dropdown-item" href="Element03.html">Element03</a></li>
+                <li><a class="dropdown-item" href="Element04.html">Element04</a></li>
+                <li><a class="dropdown-item" href="Element05.html">Element05</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- Navbar toggle button for smaller screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </body>
+</header>
+</html>
+
